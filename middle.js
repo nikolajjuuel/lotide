@@ -34,10 +34,8 @@ function eqArrays(arrayOne, arrayTwo) {
 
 
 function middle(array) {
-  if (array.length < 4) {
-    let middleArray = [];
-    console.log(middleArray);
-    return middleArray;
+  if (array.length < 3) {
+    return [];
   }
 
   let middleArray = [];
@@ -60,6 +58,10 @@ function middle(array) {
   return (middleArray);
 }
 
+eqArrays(middle([1,2,3]),[2])
 
 eqArrays(middle([1,2,3,4,5]),[3])
 assertArraysEqual(middle([1,2,3,4,5],[3]),[3])
+assertArraysEqual(middle([1,2,3,4]),[2,3])
+assertArraysEqual(middle([121,246,323,1234,1]),[323])
+
