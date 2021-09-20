@@ -35,3 +35,5 @@ console.log(Object(cd2))
 assertEqual(eqObjects(ab, ba),true);
 
 assertEqual(eqObjects(cd, dc),true);
+
+module.exports = eqObjects;

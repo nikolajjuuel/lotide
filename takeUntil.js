@@ -19,3 +19,5 @@ const takeUntil = function (array, callBack) {
 
 const results1 = takeUntil(data1, x => x < 0);
 const results2 = takeUntil(data2, x => x === ',');
+
+module.exports = takeUntil;

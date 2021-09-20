@@ -47,3 +47,5 @@ assertObjectsEqual(eqObjects(ab,ba), true);
 assertObjectsEqual(eqObjects(ab, ba),true);
 
 assertObjectsEqual(eqObjects(cd, dc),true);
+
+module.exports =  eqObjects;

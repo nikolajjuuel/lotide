@@ -14,3 +14,4 @@ describe("#eqArrays", () => {
     });
   });
 
+  module.exports = eqArrays;

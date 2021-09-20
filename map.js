@@ -36,3 +36,5 @@ function assertArraysEqual(arrayOne, arrayTwo) {
   assertArraysEqual(map(words, word => word[1]), ["r", "o", "o", "a", "o"])
   assertArraysEqual(map(newWords, word => word[0]), ["r", "a", "c", "e", "c", "a", "r"])
 
+  module.exports = map;
+
