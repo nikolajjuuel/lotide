@@ -14,4 +14,6 @@ function assertArraysEqual(arrayOne, arrayTwo) {
     console.log(isTrue);
     return isTrue;
   }
-  assertArraysEqual([1,2],[1,2]);
+ // assertArraysEqual([1,2],[1,2]);
+
+ module.exports = assertArraysEqual;
