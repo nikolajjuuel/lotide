@@ -5,4 +5,6 @@ function head(arr) {
 };
 
 
-assertEqual(head([1,2,3]),1)
+assertEqual(head([1,2,3]),1);
+
+module.exports = head;
