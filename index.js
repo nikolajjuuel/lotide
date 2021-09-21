@@ -36,20 +36,20 @@ const withOut = require('./without');
 
 
 module.exports = {
-    assertArraysEqual : assertArraysEqual,
-    assertEqual : assertEqual,
-    assertObjectsEqual : assertObjectsEqual,
-    countLetters : countLetters,
-    countOnly : countOnly,
-    eqArrays : eqArrays,
-    eqObjects : eqObjects,
-    findKey : findKey,
-    findKeyByValue : findKeyByValue,
-    head  : head,
-    letterPostions : letterPostions,
-    map : map,
-    middle : middle,
-    tail : tail,
-    takeUntil : takeUntil,
-    withOut : withOut
+    assertArraysEqual,
+    assertEqual,
+    assertObjectsEqual,
+    countLetters,
+    countOnly,
+    eqArrays,
+    eqObjects,
+    findKey,
+    findKeyByValue,
+    head,
+    letterPostions,
+    map,
+    middle,
+    tail,
+    takeUntil,
+    withOut
 };
